@@ -1,0 +1,6 @@
+networkx
+numpy
+scipy
+matplotlib
+icecream
+tqdm
