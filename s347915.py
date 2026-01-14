@@ -596,9 +596,6 @@ def _build_route_from_trips(trips: Sequence[Sequence[Visit]], gold: Sequence[flo
             return
         out.append((node, float(take)))
 
-    # Make the route explicit: always start at depot 0.
-    # This does not add any travel cost by itself (no move happens on a 0->0 step),
-    # and the first real movement from 0 is still accounted when we push the next nodes.
     push(0, 0.0)
 
     for trip in trips:

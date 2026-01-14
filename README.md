@@ -1,4 +1,4 @@
-# LNS Multi-Visit (partial pickups) — s347915
+# Final project — Gold Thief Problem solver (LNS multi-visit) 💰 — s347915
 
 This project implements a **Large Neighborhood Search (LNS)** heuristic for the *Gold Thief Problem*: collect gold on a weighted graph with a **depot** at node `0`.
 
